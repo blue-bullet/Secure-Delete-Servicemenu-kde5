@@ -16,9 +16,9 @@ stat -c "%a %n" install.sh       # verify
 
 ./install.sh                     # install routines 
 
-# optional step - Remove downloaded routines (no longer needed) (remove comment # to run):
+## optional step - Remove downloaded routines (no longer needed) (remove comment # to run):
 
-# rm * -r                        # Will do the optional step. Make certain cd is still one set above so only downloaded files are removed.
+## rm * -r                        # Will do the optional step. Make certain cd is still one set above so only downloaded files are removed.
   
 install.sh will create and place the necessary kde desktop files to allow you to run securedelete and securedeletefolders from Dolphin file manager.  
 This was not kept up to date by the author (vanbosco on desktop.org) so I just copied and modified his routines to make them work under KDE Plasma 5.
