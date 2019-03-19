@@ -5,16 +5,16 @@ see https://www.opendesktop.org/p/998460/ to work in kde3 and kde4.
 
 Updated 2019-03-07 @ 15:58:36 MST by rob@sigma
 
-Place this in a subdirectory like /home/yourusersname/Downloads/kde_secure_delete, make certain install.sh is executable with permissions 755.
+Place this in a subdirectory like /home/yourusersname/Downloads/Secure-Delete-Servicemenu-kde5-docs, make certain install.sh is executable with permissions 755.
 In konsole:              
 
-cd ~/Downloads/kde_secure_delete # change directory to where install.sh resides
+cd ~/Downloads/Secure-Delete-Servicemenu-kde5-docs   # change directory to where install.sh resides
 
-chmod 755 install.sh             # change permissions to make it executable
+chmod 755 install.sh                                 # change permissions to make it executable
 
-stat -c "%a %n" install.sh       # verify 
+stat -c "%a %n" install.sh                           # verify 
 
-./install.sh                     # install routines 
+./install.sh                                         # install routines 
 
 ## optional step - Remove downloaded routines (no longer needed) (remove comment # to run):
 
