@@ -9,10 +9,15 @@ Place this in a subdirectory like /home/yourusersname/Downloads/kde_secure_delet
 In konsole:              
 
 cd ~/Downloads/kde_secure_delete # change directory to where install.sh resides
+
 chmod 755 install.sh             # change permissions to make it executable
+
 stat -c "%a %n" install.sh       # verify
+
 ./install.sh                     # install routines
+
 # optional step - Remove downloaded routines (no longer needed) (remove comment # to run):
+
 # rm * -r                        # Will do the optional step. Make certain cd is still one set above so only downloaded files are removed.
   
 install.sh will create and place the necessary kde desktop files to allow you to run securedelete and securedeletefolders from Dolphin file manager.  
