@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Service
+Encoding=UTF-8
+Actions=Secure_delete;
+X-KDE-Priority=TopLevel
+X-KDE-Submenu=Privacy
+X-KDE-Submenu[it]=Privacy
+ServiceTypes=KonqPopupMenu/Plugin,inode/directory
+
+[Desktop Action Secure_delete]
+Exec=securedeletefolder.sh %f
+#Exec=/home/rob/Dropbox/shared_rcss_complex/securedelete.sh %f
+Icon=draw-eraser
+Name=Delete folder(s) DEFINITELY!
+Name[it]=Distruggi la cartella e il suo contenuto DEFINITIVAMENTE
