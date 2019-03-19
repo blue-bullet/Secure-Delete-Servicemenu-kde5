@@ -12,9 +12,9 @@ cd ~/Downloads/kde_secure_delete # change directory to where install.sh resides
 
 chmod 755 install.sh             # change permissions to make it executable
 
-stat -c "%a %n" install.sh       # verify
+stat -c "%a %n" install.sh       # verify 
 
-./install.sh                     # install routines
+./install.sh                     # install routines 
 
 # optional step - Remove downloaded routines (no longer needed) (remove comment # to run):
 
