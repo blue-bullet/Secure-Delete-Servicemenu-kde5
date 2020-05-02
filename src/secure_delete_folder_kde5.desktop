@@ -9,7 +9,6 @@ ServiceTypes=KonqPopupMenu/Plugin,inode/directory
 
 [Desktop Action Secure_delete]
 Exec=securedeletefolder.sh %f
-#Exec=/home/rob/Dropbox/shared_rcss_complex/securedelete.sh %f
 Icon=draw-eraser
 Name=Delete folder(s) DEFINITELY!
 Name[it]=Distruggi la cartella e il suo contenuto DEFINITIVAMENTE

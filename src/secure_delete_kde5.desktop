@@ -9,7 +9,6 @@ X-KDE-Submenu[it]=Privacy
 
 [Desktop Action secure_delete]
 Exec=securedelete.sh %u
-#Exec=/home/rob/Dropbox/shared_rcss_complex/securedelete.sh %u
 Icon=draw-eraser
 Name=Delete file(s) DEFINITELY!
 Name[it]=Distruggi il file DEFINITIVAMENTE!
