@@ -1,5 +1,5 @@
 #!/bin/bash
-# Updated 2019-03-04 @ 13:12:27 MST by rob@sigma
+# Updated 2020-05-02 @ 11:33:40 MDT by rob@sigma-added copying securedelete.sh and securedeletefolder.sh to /usr/bin via sudo so dolphin can find them.
 echo "Installing secure-delete for KDE Plasma 5..."
 #set x-1
 CURRENTD=$(dirname "$0") # looking at the current location of this file
@@ -57,7 +57,15 @@ cp -p -v securedelete.sh "$HOME"/bin
 chmod -v 755 "$HOME"/bin/securedeletefolder.sh 
 chmod -v 755 "$HOME"/bin/securedelete.sh 
 
+# copy all scripts to /usr/bin dir
+sudo cp -p -v securedeletefolder.sh /usr/bin
+sudo cp -p -v securedelete.sh /usr/bin
+sudo chmod -v 755 /usr/bin/securedeletefolder.sh 
+sudo chmod -v 755 /usr/bin/securedelete.sh 
+sudo chown root:root /usr/bin/securedeletefolder.sh 
+sudo chown root:root /usr/bin/securedelete.sh 
+
 echo "Installation done!"    # message for successful installation
-kdialog --msgbox "Installation done! \n \nTo uninstall simply delete securedeletefolder.sh and securedelete.sh from your ~/bin directory, and  
+kdialog --msgbox "Installation done! \n \nTo uninstall simply delete securedeletefolder.sh and securedelete.sh from your ~/bin directory, /usr/bin, and  
 delete secure_delete_kde5.desktop and secure_delete_folder_kde5.desktop from your $L_P directory."
 #set x-1
