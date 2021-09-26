@@ -6,9 +6,11 @@ ServiceTypes=KonqPopupMenu/Plugin,all/allfiles
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=Privacy
 X-KDE-Submenu[it]=Privacy
+X-KDE-Submenu[nl]=Privacy
 
 [Desktop Action secure_delete]
 Exec=securedelete.sh %u
 Icon=draw-eraser
 Name=Delete file(s) DEFINITELY!
 Name[it]=Distruggi il file DEFINITIVAMENTE!
+Name[nl]=Bestand(en) PERMANENT verwijderen!
