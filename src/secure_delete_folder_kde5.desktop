@@ -5,6 +5,7 @@ Actions=Secure_delete;
 X-KDE-Priority=TopLevel
 X-KDE-Submenu=Privacy
 X-KDE-Submenu[it]=Privacy
+X-KDE-Submenu[nl]=Privacy
 ServiceTypes=KonqPopupMenu/Plugin,inode/directory
 
 [Desktop Action Secure_delete]
@@ -12,3 +13,4 @@ Exec=securedeletefolder.sh %f
 Icon=draw-eraser
 Name=Delete folder(s) DEFINITELY!
 Name[it]=Distruggi la cartella e il suo contenuto DEFINITIVAMENTE
+Name[nl]=Map(pen) PERMANENT verwijderen!
